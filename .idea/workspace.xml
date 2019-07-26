@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e16faefa-303e-4854-ac49-fb5305e43481" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/rateit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/roboto-bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/roboto-bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/roboto-bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/roboto-bold.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/roboto-bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/roboto-bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/roboto-bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/roboto-bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/roboto-light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/roboto-light.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/roboto-light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/roboto-light.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/roboto-light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/roboto-light.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/roboto-light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/roboto-light.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/roboto-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/roboto-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/roboto-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/roboto-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/roboto-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/roboto-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/roboto-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/roboto-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_inner.html" beforeDir="false" afterPath="$PROJECT_DIR$/10_inner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_inner.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_inner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,45 +59,106 @@
     <session id="-1136710027">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="222" />
-          <entry key="html" value="1" />
+          <entry key="css" value="339" />
+          <entry key="html" value="30" />
+          <entry key="js" value="4" />
           <entry key="md" value="21" />
-          <entry key="txt" value="42" />
+          <entry key="txt" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="222" />
-          <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="63" />
+          <entry key="CSS" value="339" />
+          <entry key="HTML" value="30" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PLAIN_TEXT" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
+          <entry key="css" value="2" />
+          <entry key="html" value="4" />
+          <entry key="js" value="5" />
+          <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="4" />
+          <entry key="JavaScript" value="5" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16515">
-              <caret line="1101" column="37" selection-start-line="1101" selection-start-column="37" selection-end-line="1101" selection-end-column="37" />
+            <state relative-caret-position="2396">
+              <caret line="353" column="47" lean-forward="true" selection-start-line="353" selection-start-column="47" selection-end-line="353" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12_inner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10_inner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="506" column="107" selection-start-line="506" selection-start-column="107" selection-end-line="506" selection-end-column="107" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#6;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#7;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#8;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#9;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#10;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#11;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#12;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#13;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#14;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#15;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,10 +167,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>i-bol</find>
-      <find>software__action</find>
-      <find>download-info__btn</find>
-      <find>download</find>
       <find>product</find>
       <find>content</find>
       <find>section</find>
@@ -143,6 +193,10 @@
       <find>font-family: 'roboto-</find>
       <find>font-family: 'roboto</find>
       <find>font-family: &quot;roboto</find>
+      <find>alternati</find>
+      <find>.software__action</find>
+      <find>.alter</find>
+      <find>rateit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,15 +207,18 @@
       <list>
         <option value="$PROJECT_DIR$/10-inner.html" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/12_inner.html" />
         <option value="$PROJECT_DIR$/11_inner.html" />
         <option value="$PROJECT_DIR$/css/editor.css" />
         <option value="$PROJECT_DIR$/11_inner.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/rateit.js" />
+        <option value="$PROJECT_DIR$/css/rateit.css" />
         <option value="$PROJECT_DIR$/10_inner.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/12_inner.html" />
+        <option value="$PROJECT_DIR$/js/app.js" />
       </list>
     </option>
   </component>
@@ -182,6 +239,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,11 +247,15 @@
               <item name="rocket-addition" type="b2602c69:ProjectViewProjectNode" />
               <item name="rocket-addition" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rocket-addition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket-addition" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,6 +265,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/img" />
@@ -237,7 +302,8 @@
       <workItem from="1563902457466" duration="12016000" />
       <workItem from="1563965197181" duration="927000" />
       <workItem from="1563974045875" duration="2176000" />
-      <workItem from="1564001039481" duration="229000" />
+      <workItem from="1564001039481" duration="871000" />
+      <workItem from="1564131046724" duration="4295000" />
     </task>
     <task id="LOCAL-00001" summary="fix README.md">
       <created>1563965512899</created>
@@ -253,14 +319,22 @@
       <option name="project" value="LOCAL" />
       <updated>1563976200553</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add fonts to css">
+      <created>1564001531623</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564001531623</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31264000" />
+    <option name="totallyTimeSpent" value="36201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -274,7 +348,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.16261204" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.16261204" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -290,7 +364,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix README.md" />
     <MESSAGE value="add font-weight" />
-    <option name="LAST_COMMIT_MESSAGE" value="add font-weight" />
+    <MESSAGE value="add fonts to css" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fonts to css" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/editor.css">
@@ -300,36 +375,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/11_inner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12_inner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10155">
-          <caret line="677" column="21" selection-start-line="677" selection-start-column="21" selection-end-line="677" selection-end-column="21" />
+        <state relative-caret-position="300">
+          <caret line="370" column="36" selection-start-line="370" selection-start-column="36" selection-end-line="370" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/rateit.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/rateit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6160" selection-start-line="3" selection-start-column="6160" selection-end-line="3" selection-end-column="6160" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2396">
+          <caret line="353" column="47" lean-forward="true" selection-start-line="353" selection-start-column="47" selection-end-line="353" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/10_inner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="314">
+          <caret line="506" column="107" selection-start-line="506" selection-start-column="107" selection-end-line="506" selection-end-column="107" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -351,22 +450,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11_inner.html">
+    <entry file="file://$PROJECT_DIR$/js/lib/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_inner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="370" column="36" selection-start-line="370" selection-start-column="36" selection-end-line="370" selection-end-column="36" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16515">
-          <caret line="1101" column="37" selection-start-line="1101" selection-start-column="37" selection-end-line="1101" selection-end-column="37" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
