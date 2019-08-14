@@ -12,19 +12,21 @@
 }
 
 .info-text h2 { display: block; padding-bottom: 10px; font-size: 16px; color: #434a4d; font-family: "roboto-bold", Helvetica, Arial, sans-serif; }
-.info-text p { margin-bottom: 17px; font-size: 13px; line-height: 20px; color: #434a4d; text-align: justify; font-family: "roboto-regular", Helvetica, Arial, sans-serif; }
+.info-text p { margin-bottom: 14px; font-size: 14px; line-height: 20px; color: #434a4d; text-align: justify; font-family: "roboto-light", Helvetica, Arial, sans-serif; }
 .info-text ul li { position: relative; padding-left: 12px; padding-bottom: 2px;}
 .info-text ul li:after { position: absolute; top: 8px; left: 0; content: ""; width: 3px; height: 3px; border-radius: 50%; background-color: #434a4d; }
 .info-text figure { margin: 15px 0; text-align: center; }
 .info-text figure img { max-width: 100%; width: auto;}
 .info-text ol, .info-text ul {margin: 10px 0;}
 .info-text ol {margin-left: 13px;}
-.article-text h2 { display: block; padding-bottom: 10px; font-size: 24px; color: #434a4d; font-family: "roboto-light", Helvetica, Arial, sans-serif; }
+.article-text h2 { display: block; padding-top: 10px; padding-bottom: 10px; font-size: 22px; color: #434a4d; font-family: "roboto-light", Helvetica, Arial, sans-serif; }
 .article-text h3 { display: block; padding-bottom: 10px; font-size: 20px; color: #434a4d; font-family: "roboto-light", Helvetica, Arial, sans-serif; }
-.article-text p { margin-bottom: 17px; font-size: 13px; line-height: 20px; color: #434a4d; text-align: justify; font-family: "roboto-regular", Helvetica, Arial, sans-serif; }
-.article-text ul li { position: relative; padding-left: 12px; padding-bottom: 2px;}
-.article-text ul li:after { position: absolute; top: 8px; left: 0; content: ""; width: 3px; height: 3px; border-radius: 50%; background-color: #434a4d; }
+.article-text p { margin-bottom: 24px; font-size: 14px; color: #434a4d; text-align: justify; font-family: "roboto-light", Helvetica, Arial, sans-serif; font-weight: 300; }
+.article-text ul li { position: relative; padding-left: 12px; padding-bottom: 2px; font-size: 14px; font-family: "roboto-light", Helvetica, Arial, sans-serif; font-weight: 300; }
+.article-text ul li:after { position: absolute; top: 8px; left: 0; content: ""; width: 3px; height: 3px; border-radius: 50%; background-color: #434a4d; font-size: 14px; font-family: "roboto-light", Helvetica, Arial, sans-serif; font-weight: 300; }
 .article-text figure { margin: 15px 0; text-align: center; }
 .article-text figure img { max-width: 100%; width: auto;}
 .article-text ol, .article-text ul {margin: 10px 0;}
 .article-text ol {margin-left: 13px;}
+.article-text p a { color: #0091de; }
+.article-text span.i-bold { display: inline-block; padding-bottom: 10px; font-size: 16px; }
