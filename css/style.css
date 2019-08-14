@@ -839,7 +839,7 @@ button { background-color: transparent; }
 
 .row__wrap { padding-bottom: 24px; padding-top: 22px; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; border-bottom: 1px solid #eaeaea; }
 .row.top-head .row__wrap { width: 100%; }
-.row.top-head .row__left { width: 70%; margin-right: 30px; }
+.row.top-head .row__left { width: 70%; }
 .row.top-head .row__right { width: 29%; }
 
 .search { position: relative; width: 260px; }
@@ -1101,7 +1101,7 @@ button { background-color: transparent; }
   .preview__descr{ font-size: 12px; }
   .row.top-head .row__wrap { align-items: flex-start; }
   .row.top-head.row__wrap .row__right  { width: 100%; }
-  .btn-green__right { width: 100%; }
+  .row__right .btn-green { min-width: 100%; }
   .software__btn{ width: 100px; }
   .software.is-versions .software{ -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
   .software.is-versions .software__left{ width: 50%; }
