@@ -534,7 +534,6 @@ button { background-color: transparent; }
 .content.is-sidebar .tabs__el { padding: 6px 25px 14px; }
 .content.is-3-inner .banner { margin-bottom: 0; }
 .content.is-5-inner { padding-top: 20px; }
-.content.is-5-inner p { font-size: 14px; font-family: "roboto-light", Helvetica, Arial, sans-serif; font-weight: 300; }
 .content.is-sidebar .content__right .sidebar { display: none; }
 .content.is-6-inner .row__wrap { margin-bottom: 12px; padding-top: 10px; padding-bottom: 25px; }
 .content.is-6-inner .aside { padding-top: 15px; }
@@ -783,14 +782,6 @@ button { background-color: transparent; }
 .nav__link, .nav__link:visited { padding: 21px 10px; color: #fff; font-size: 15px; text-transform: uppercase; }
 .nav__link:hover, .nav__link:visited:hover { text-decoration: none; }
 
-.note { margin-bottom: 23px; position: relative; padding: 28px 33px; background-color: #fafafa; }
-.note span { font-size: 14px; }
-.note span.i-bold { font-size: 14px; padding-bottom: 0; }
-.note:before { position: absolute; content: ''; top: 0; left: 0; width: 6px; height: 100%; background-color: #ff5c5c; }
-.note.is-green:before { background-color: #66bb6a; }
-.note.is-orange:before { background-color: #ffa000; }
-.note.is-blue:before { background-color: #29a6e6; }
-
 .pagination { margin: 20px 0; text-align: center; }
 .pagination__list { display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; }
 .pagination__el { margin: 0 3px; }
@@ -833,9 +824,6 @@ button { background-color: transparent; }
 .programs__el:nth-child(8) { margin-right: 0; }
 .programs__el:last-child { margin-right: 0; }
 .programs__link { width: 42px; height: 42px; }
-
-.quote { position: relative; margin: 0; padding: 0 0 20px 66px; font-size: 14px; font-family: "roboto-lightitalic", Helvetica, Arial, sans-serif; }
-.quote:before { position: absolute; content: '“'; top: -12px; left: 0; font-size: 100px; line-height: 1; color: #e0e0e0; font-family: Helvetica Neue, Arial, sans-serif; font-weight: bold; }
 
 .row__wrap { padding-bottom: 24px; padding-top: 22px; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; border-bottom: 1px solid #eaeaea; }
 .row.top-head .row__wrap { width: 100%; }

@@ -21,7 +21,7 @@
 .info-text ol {margin-left: 13px;}
 .article-text h2 { display: block; padding-top: 10px; padding-bottom: 10px; font-size: 22px; color: #434a4d; font-family: "roboto-light", Helvetica, Arial, sans-serif; }
 .article-text h3 { display: block; padding-bottom: 10px; font-size: 20px; color: #434a4d; font-family: "roboto-light", Helvetica, Arial, sans-serif; }
-.article-text p { margin-bottom: 24px; font-size: 14px; color: #434a4d; text-align: justify; font-family: "roboto-light", Helvetica, Arial, sans-serif; font-weight: 300; }
+.article-text p { margin-bottom: 14px; font-size: 14px; color: #434a4d; text-align: justify; font-family: "roboto-light", Helvetica, Arial, sans-serif; font-weight: 300; }
 .article-text ul li { position: relative; padding-left: 12px; padding-bottom: 2px; font-size: 14px; font-family: "roboto-light", Helvetica, Arial, sans-serif; font-weight: 300; }
 .article-text ul li:after { position: absolute; top: 8px; left: 0; content: ""; width: 3px; height: 3px; border-radius: 50%; background-color: #434a4d; font-size: 14px; font-family: "roboto-light", Helvetica, Arial, sans-serif; font-weight: 300; }
 .article-text figure { margin: 15px 0; text-align: center; }
@@ -29,4 +29,14 @@
 .article-text ol, .article-text ul {margin: 10px 0;}
 .article-text ol {margin-left: 13px;}
 .article-text p a { color: #0091de; }
-.article-text span.i-bold { display: inline-block; padding-bottom: 10px; font-size: 16px; }
+.article-text strong { display: inline-block; padding-bottom: 10px; font-size: 16px; font-family: "roboto-bold", Helvetica, Arial, sans-serif; font-weight: 700; }
+.article-text blockquote { position: relative; margin: 0; padding: 0 0 20px 66px; font-size: 14px; font-family: "roboto-lightitalic", Helvetica, Arial, sans-serif; }
+.article-text blockquote p { font-family: "roboto-lightitalic", Helvetica, Arial, sans-serif!important; }
+.article-text blockquote:before { position: absolute; content: '“'; top: -12px; left: 0; font-size: 100px; line-height: 1; color: #e0e0e0; font-family: Helvetica Neue, Arial, sans-serif; font-weight: bold; }
+.article-text .note { margin-bottom: 23px; position: relative; padding: 28px 33px; background-color: #fafafa; font-size: 14px; }
+.article-text .note strong { padding-bottom: 0; font-size: 14px; }
+.article-text .note p { display: inline; }
+.article-text .note:before { position: absolute; content: ''; top: 0; left: 0; width: 6px; height: 100%; background-color: #ff5c5c; }
+.article-text .note.is-green:before { background-color: #66bb6a; }
+.article-text .note.is-orange:before { background-color: #ffa000; }
+.article-text .note.is-blue:before { background-color: #29a6e6; }
