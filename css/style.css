@@ -550,7 +550,7 @@ button { background-color: transparent; }
 .content.is-searchpage .software__title:hover { color: #0091de!important; }
 .content.is-statistic { padding-top: 22px; }
 .content.is-statistic .software__left { display: flex; }
-.content.is-statistic .software__title { text-decoration: none; transition: none; }
+.content.is-statistic .software__title { text-decoration: none; transition: none; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 100% }
 .content.is-statistic .software:hover .software__title { color: #434a4d; }
 .content.is-statistic .software__title:hover { color: #0091de!important; }
 
@@ -887,8 +887,8 @@ button { background-color: transparent; }
 .software__link { display: -webkit-flex; display: -ms-flexbox; display: flex; transition: all 0.3s ease-in-out; }
 .software__link:hover { text-decoration: none; }
 .software__img { width: 38px; height: 38px; min-width: 38px; margin-right: 15px; }
-.software__info { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-.software__title { margin-right: 7px; max-width: 100%; color: #434a4d; font-size: 16px; font-family: "roboto-bold", Helvetica, Arial, sans-serif; }
+.software__info { width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.software__title { margin-right: 7px; color: #434a4d; font-size: 16px; font-family: "roboto-bold", Helvetica, Arial, sans-serif; }
 .software__subtitle { font-size: 12px; color: #68767d; font-family: "roboto-light", Helvetica, Arial, sans-serif; font-weight: 300; }
 .software__descr { font-size: 13px; color: #434a4d; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: "roboto-light", Helvetica, Arial, sans-serif; font-weight: 300; }
 .software__btn { text-align: center; width: 126px; height: 30px; line-height: 30px; font-size: 13px; background-color: #45b54d; border: 1px solid #45b54d; color: #fff; cursor: pointer; }
