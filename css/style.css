@@ -1123,6 +1123,8 @@ button { background-color: transparent; }
   .cards__wrap{ -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
   .download-block__btn { max-width: 100%; width: 100%; text-align: center; display: inline-block; padding: 0; }
   .software.is-alternative.software__btn { width: 84px; }}
+  .software__info { margin-right: 10px; }
+  .software__img { margin-right: 10px; }
 
 @media only screen and (max-width: 414px){
   .content.is-searchpage .software .download{ display: flex; flex-direction: column; }
