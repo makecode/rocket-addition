@@ -528,7 +528,7 @@ button { background-color: transparent; }
 .content.is-main .content__wrap { padding-bottom: 30px; }
 .content.is-main .aside__box { margin: 0; }
 .content.is-sidebar .content__wrap { padding-top: 15px; }
-.content.is-sidebar .content__left { width: 290px; margin-right: 40px; }
+.content.is-sidebar .content__left { width: 31%; margin-right: 40px; }
 .content.is-sidebar .content__right { width: 69%; }
 .content.is-sidebar .tabs { margin-top: 0; }
 .content.is-sidebar .tabs__el { padding: 6px 25px 14px; }
@@ -544,12 +544,12 @@ button { background-color: transparent; }
 .content.is-searchpage h1 { letter-spacing: -.9px; }
 .content.is-searchpage .aside { padding-top: 5px; }
 .content.is-searchpage .software .download { text-align: left; }
-.content.is-searchpage .software__left { display: flex; }
+.content.is-searchpage .software__left { display: flex; align-items: center; }
 .content.is-searchpage .software__title { text-decoration: none; transition: none; }
 .content.is-searchpage .software:hover .software__title { color: #434a4d; }
 .content.is-searchpage .software__title:hover { color: #0091de!important; }
 .content.is-statistic { padding-top: 22px; }
-.content.is-statistic .software__left { display: flex; }
+.content.is-statistic .software__left { display: flex; align-items: center; }
 .content.is-statistic .software__title { text-decoration: none; transition: none; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 100% }
 .content.is-statistic .software:hover .software__title { color: #434a4d; }
 .content.is-statistic .software__title:hover { color: #0091de!important; }
@@ -911,7 +911,8 @@ button { background-color: transparent; }
 .software__action { position: relative; top: 5px; }
 .software__action .software__link { margin-top: 10px; display: inline-block; color: #0091de; }
 .software.is-alternative { align-items: flex-start; }
-.software.is-alternative .software__right { text-align: center }
+.software.is-alternative .software__img { position: relative; top: 3px; }
+.software.is-alternative .software__right { text-align: center; }
 .software.is-alternative .software__descr { margin-right: 35px; }
 .software.is-alternative .software__title { margin-right: 0; }
 
@@ -1124,7 +1125,6 @@ button { background-color: transparent; }
   .download-block__btn { max-width: 100%; width: 100%; text-align: center; display: inline-block; padding: 0; }
   .software.is-alternative.software__btn { width: 84px; }}
   .software__info { margin-right: 10px; }
-  .software__img { margin-right: 10px; }
 
 @media only screen and (max-width: 414px){
   .content.is-searchpage .software .download{ display: flex; flex-direction: column; }
