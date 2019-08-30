@@ -550,7 +550,8 @@ button { background-color: transparent; }
 .content.is-searchpage .software__title:hover { color: #0091de!important; }
 .content.is-statistic { padding-top: 22px; }
 .content.is-statistic .software__left { display: flex; align-items: center; }
-.content.is-statistic .software__title { text-decoration: none; transition: none; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 100% }
+.content.is-statistic .software__title { position: relative; top: 2px; text-decoration: none; transition: none; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 100% }
+.content.is-statistic .software__descr { position: relative; top: -2px; text-decoration: none; transition: none; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 100% }
 .content.is-statistic .software:hover .software__title { color: #434a4d; }
 .content.is-statistic .software__title:hover { color: #0091de!important; }
 
