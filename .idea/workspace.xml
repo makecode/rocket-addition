@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e16faefa-303e-4854-ac49-fb5305e43481" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fonts/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fonts/Roboto-Regular.ttf" afterDir="false" />
+    <list default="true" id="e16faefa-303e-4854-ac49-fb5305e43481" name="Default Changelist" comment="add ttf format">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,7 +71,7 @@
           <entry key="html" value="1475" />
           <entry key="js" value="6" />
           <entry key="md" value="21" />
-          <entry key="txt" value="162" />
+          <entry key="txt" value="178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -81,7 +79,7 @@
           <entry key="CSS" value="3575" />
           <entry key="HTML" value="1475" />
           <entry key="JavaScript" value="6" />
-          <entry key="PLAIN_TEXT" value="183" />
+          <entry key="PLAIN_TEXT" value="199" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -109,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="343" column="48" lean-forward="true" selection-start-line="343" selection-start-column="48" selection-end-line="343" selection-end-column="48" />
+            <state relative-caret-position="1150">
+              <caret line="357" column="23" selection-start-line="357" selection-start-column="23" selection-end-line="357" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -119,11 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.content.is-5</find>
-      <find>note</find>
-      <find>slide</find>
-      <find>row</find>
-      <find>app__subtitle</find>
       <find>preview__title</find>
       <find>h3</find>
       <find>.tabs__el</find>
@@ -149,6 +142,11 @@
       <find>.content.is-sidebar .content__left</find>
       <find>altern</find>
       <find>cc</find>
+      <find>roboto</find>
+      <find>svgfont</find>
+      <find>sg</find>
+      <find>sgg</find>
+      <find>svg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -215,6 +213,11 @@
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rocket-addition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocket-addition" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -228,13 +231,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/fonts" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,7 +278,7 @@
       <workItem from="1567076221770" duration="8327000" />
       <workItem from="1567163589475" duration="3318000" />
       <workItem from="1568716663574" duration="1000" />
-      <workItem from="1572336776632" duration="261000" />
+      <workItem from="1572336776632" duration="2148000" />
     </task>
     <task id="LOCAL-00001" summary="fix README.md">
       <created>1563965512899</created>
@@ -395,11 +399,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567166840548</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add ttf format">
+      <created>1572337141311</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1572337141311</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98263000" />
+    <option name="totallyTimeSpent" value="100150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -440,7 +451,8 @@
     <MESSAGE value="fix ellipsis" />
     <MESSAGE value="add prefooter" />
     <MESSAGE value="fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bugs" />
+    <MESSAGE value="add ttf format" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ttf format" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -531,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="343" column="48" lean-forward="true" selection-start-line="343" selection-start-column="48" selection-end-line="343" selection-end-column="48" />
+        <state relative-caret-position="1150">
+          <caret line="357" column="23" selection-start-line="357" selection-start-column="23" selection-end-line="357" selection-end-column="23" />
         </state>
       </provider>
     </entry>
