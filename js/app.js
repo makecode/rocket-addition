@@ -2082,24 +2082,6 @@ $(document).ready(function() {
     }
   });
 
-  var tabsSwitcher = function(tabsArray, contentArray) {
-    tabsArray.map(function (i, el) {
-      $(el).click(function () {
-        var activeIndex = i;
-        contentArray.map(function(contentIndex, content) {
-          if( activeIndex === contentIndex ) {
-            $(content).addClass('is-visible')
-          } else (
-            $(content).removeClass('is-visible')
-          )
-        });
-        tabsArray.map(function(i, tab) {
-          $(this).removeClass('is-active');
-        });
-        $(this).addClass('is-active');
-      });
-    });
-  };
 
   var hoverSwitcher = function(tabsArray, contentArray) {
     tabsArray.map(function (i, el) {
@@ -2120,6 +2102,73 @@ $(document).ready(function() {
     });
   };
 
+
+  var tabsSwitcher = function(tabsArray, contentArray, activeIndex) {
+    tabsArray.each(function (tabIndex, tab) {
+      if (activeIndex === tabIndex) {
+        $(tab).addClass('is-active')
+      } else {
+        $(tab).removeClass('is-active');
+      }
+    });
+
+    contentArray.each(function(contentIndex, content) {
+      if( activeIndex === contentIndex ) {
+        $(content).addClass('is-visible')
+      } else (
+        $(content).removeClass('is-visible')
+      )
+    });
+  };
+
+  // Run tabsSwitcher for #tabs-small
+  var smallTabs = $('#tabs-small'),
+    smallTabsEls = smallTabs.find('.tabs__el'),
+    smallTabsContents = smallTabs.find('.tabs__content'),
+    smallActiveIndex = 0;
+
+  tabsSwitcher(smallTabsEls, smallTabsContents, smallActiveIndex);
+
+  smallTabsEls.each((index, tab) => {
+    $(tab).click(() => {
+      smallActiveIndex = index;
+      tabsSwitcher(smallTabsEls, smallTabsContents, smallActiveIndex);
+    });
+  });
+
+  // Run tabsSwitcher for #tabs-big
+  var bigTabs = $('#tabs-big'),
+    bigTabsEls = bigTabs.find('.tabs__el'),
+    bigTabsContents = bigTabs.find('.info'),
+    bigActiveIndex = 0;
+  tabsSwitcher(bigTabsEls, bigTabsContents, bigActiveIndex);
+
+  bigTabsEls.each((index, tab) => {
+    $(tab).click(() => {
+      bigActiveIndex = index;
+      tabsSwitcher(bigTabsEls, bigTabsContents, bigActiveIndex);
+    });
+  });
+
+  // Run tabsSwitcher for #tabs-big
+  var moreTabs = $('#tabs-more'),
+    moreTabsEls = moreTabs.find('.tabs__el'),
+    moreTabsContents = moreTabs.find('.tabs__content'),
+    moreActiveIndex = 0;
+  tabsSwitcher(moreTabsEls, moreTabsContents, moreActiveIndex);
+
+  moreTabsEls.each((index, tab) => {
+    $(tab).click(() => {
+      moreActiveIndex = index;
+      tabsSwitcher(moreTabsEls, moreTabsContents, moreActiveIndex);
+    });
+  });
+
+  // Run tabsHower for menu inner drop-downs
+  var innerMenu = $('.drop-down__el'),
+    innerDropDown = $('.drop-down-inner');
+  hoverSwitcher(innerMenu, innerDropDown);
+
   //Language
   $language.hover(function(){
     $(this).toggleClass('is-open');
@@ -2130,23 +2179,6 @@ $(document).ready(function() {
     $(this).toggleClass('is-active');
   });
 
-  // Run tabsSwitcher for #tabs-big
-  var generalTabs = $('#tabs-big'),
-    generalTabsEl = generalTabs.find('.tabs__el'),
-    generalTabsContent = generalTabs.find('.tabs__content');
-  tabsSwitcher(generalTabsEl, generalTabsContent);
-
-  // Run tabsSwitcher for #tabs-small
-  var smallTabs = $('#tabs-small'),
-    smallTabsEl = smallTabs.find('.tabs__el'),
-    smallTabsContent = smallTabs.find('.tabs__content');
-  tabsSwitcher(smallTabsEl, smallTabsContent);
-
-  // Run tabsHower for menu inner drop-downs
-  var innerMenu = $('.drop-down__el'),
-    innerDropDown = $('.drop-down-inner');
-  hoverSwitcher(innerMenu, innerDropDown);
-
   // Scroll to discussion
   $btnScroll.on('click',function() {
     var margin = 10;
@@ -2154,6 +2186,12 @@ $(document).ready(function() {
       scrollTop: $('.discussion').offset().top - margin
     }, 1000);
   });
+
+  // // Run tabsSwitcher for #tabs-big
+  // var generalTabs = $('#tabs-big'),
+  //   generalTabsEl = generalTabs.find('.tabs__el'),
+  //   generalTabsContent = generalTabs.find('.tabs__content');
+  // tabsSwitcher(generalTabsEl, generalTabsContent);
 
   var $btnShowAll = $('#btn-show-all');
   var $dropdownCards = $('.dropdown-cards');
@@ -2181,4 +2219,5 @@ $(document).ready(function() {
   $('.arrow').click(function () {
     $menu.toggleClass('is-active');
   });
+
 });
