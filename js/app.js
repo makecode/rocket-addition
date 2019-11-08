@@ -2102,7 +2102,6 @@ $(document).ready(function() {
     });
   };
 
-
   var tabsSwitcher = function(tabsArray, contentArray, activeIndex) {
     tabsArray.each(function (tabIndex, tab) {
       if (activeIndex === tabIndex) {
@@ -2150,7 +2149,7 @@ $(document).ready(function() {
     });
   });
 
-  // Run tabsSwitcher for #tabs-big
+  // Run tabsSwitcher for #tabs-more
   var moreTabs = $('#tabs-more'),
     moreTabsEls = moreTabs.find('.tabs__el'),
     moreTabsContents = moreTabs.find('.tabs__content'),
@@ -2186,12 +2185,6 @@ $(document).ready(function() {
       scrollTop: $('.discussion').offset().top - margin
     }, 1000);
   });
-
-  // // Run tabsSwitcher for #tabs-big
-  // var generalTabs = $('#tabs-big'),
-  //   generalTabsEl = generalTabs.find('.tabs__el'),
-  //   generalTabsContent = generalTabs.find('.tabs__content');
-  // tabsSwitcher(generalTabsEl, generalTabsContent);
 
   var $btnShowAll = $('#btn-show-all');
   var $dropdownCards = $('.dropdown-cards');
